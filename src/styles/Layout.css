@@ -1,0 +1,27 @@
+body {
+}
+
+.App {
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(9, 9, 9, 0);
+  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.319); */
+}
+
+main {
+  width: 100%;
+  height: fit-content;
+  background-color: beige;
+}
+
+footer {
+  width: 100%;
+  height: fit-content;
+  background-color: darkgray;
+}

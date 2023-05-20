@@ -1,0 +1,30 @@
+[
+  {
+    "projects": [
+      {
+        "project_name": "test",
+        "project_description": "test desc",
+        "project_logo": "../data/projects/icons/icon_momondo.svg",
+        "project_url": "test url",
+        "project_repository": "test resp",
+        "project_coding_languages": ["test php", "test js"]
+      },
+      {
+        "project_name": "Momondo",
+        "project_description": "This is a description",
+        "project_logo": "/svgs/icon_momondo.svg",
+        "project_url": "/url",
+        "project_repository": "/url2",
+        "project_coding_languages": ["php", "mysql", "sqlite", "phpmyadmin"]
+      },
+      {
+        "project_name": "test2",
+        "project_description": "test desc2",
+        "project_logo": "../data/projects/icons/icon_momondo.svg",
+        "project_url": "test url2",
+        "project_repository": "test resp2",
+        "project_coding_languages": ["test php", "test js"]
+      }
+    ]
+  }
+]

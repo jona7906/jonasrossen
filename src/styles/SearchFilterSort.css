@@ -1,0 +1,23 @@
+.SearchFilterSort {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+  padding: 2vw;
+}
+
+.SearchFilterSort > div {
+}
+
+.SearchFilterSort .search_wrapper_01 {
+  display: grid;
+  width: 10vw;
+}
+
+.SearchFilterSort .search_wrapper_01 img {
+  width: 5vw;
+}
+.SearchFilterSort .sort_filter_wrapper_01 .sort_wrapper_01 {
+}
+.SearchFilterSort .sort_filter_wrapper_01 .filter_wrapper_01 {
+}

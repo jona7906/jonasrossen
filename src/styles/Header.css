@@ -1,0 +1,60 @@
+.Header {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 1.5vw;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0vw 0.2vw 0.5vw 0.01vw rgba(0, 0, 0, 0.284);
+  position: sticky;
+  top: 0;
+}
+
+.Header .NavBar {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  grid-column: 1/-1;
+}
+
+.Header .NavBar .left-header {
+  width: fit-content;
+  height: fit-content;
+}
+
+.Header .NavBar .left-header img {
+  height: 3vw;
+  width: 3vw;
+}
+
+.Header .NavBar .mid-header {
+  width: fit-content;
+  height: fit-content;
+}
+
+.Header .NavBar .right-header {
+  width: fit-content;
+  height: fit-content;
+  align-items: baseline;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+}
+
+.Header .NavBar .right-header img {
+  width: 1vw;
+  height: auto;
+  color: black;
+}
+.Header .NavBar .right-header a {
+  text-decoration: none;
+  color: black;
+}
