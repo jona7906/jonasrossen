@@ -5,7 +5,7 @@ function SearchFilterSort() {
     <div className="SearchFilterSort">
       <div className="search_wrapper_01">
         <img src={SearchButton} alt="search icon"></img>
-        {/* <input>SEARCH</input> */}
+        <input class="search_input" placeholder="Search" />
       </div>
       <div className="sort_filter_wrapper_01">
         <div className="sort_wrapper_01">FILTER</div>

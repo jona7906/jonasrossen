@@ -1,29 +1,263 @@
 [
   {
+    "introductions": [
+      {
+        "introduction_name": "portfolio",
+        "introduction_title": "Portfolio introduction",
+        "introduction_text": [
+          "Welcome to my portfolio! Here you will find a showcase of the various projects I have had the pleasure of working on during my time studying multimedia design and Web Development at KEA - Copenhagen School of Design and Technology. This page serves as a testament to my abilities in both frontend and backend development, highlighting my skills in crafting captivating user interfaces and bringing them to life with robust functionality.",
+          "Throughout my educational journey, I have gained valuable experience in collaborating with teams using version control systems like GitHub and GitLab. These projects not only reflect my technical prowess but also demonstrate my aptitude for seamless teamwork and efficient project management.",
+          "Whether it's designing intuitive user experiences, developing scalable web applications, or diving into the intricacies of database management, each project presented here represents a unique challenge that I embraced wholeheartedly. Each endeavor has allowed me to expand my skill set, explore innovative solutions, and hone my problem-solving abilities.",
+          "I invite you to explore this portfolio and witness firsthand the culmination of my dedication and passion for multimedia design and Web Development. Each project is a testament to my commitment to excellence and my drive to create engaging digital experiences."
+        ],
+        "information": [{ "info_title": "", "info_text": [""] }]
+      },
+      {
+        "introduction_name": "internship",
+        "introduction_title": "Internship information",
+        "introduction_text": [
+          "As a current student at KEA - Copenhagen School of Design and Technology studying Web Development, I am actively seeking a 10-week internship to expand my skills and knowledge as a budding Fullstack-developer. I am enthusiastic about applying the concepts I've learned in a real-world setting and gaining practical experience in a professional environment.",
+          "During this internship, my goal is to contribute to meaningful projects and collaborate with experienced professionals. I am eager to immerse myself in the entire development process, including both frontend and backend tasks. I have a strong desire to learn new technologies, work effectively within a team, and tackle challenges that will accelerate my growth as a Fullstack developer.",
+          "I am specifically looking for an internship opportunity that provides mentorship and hands-on learning experiences. I am excited about applying the theoretical knowledge I have acquired to create innovative web applications and deliver seamless user experiences. Additionally, I am eager to deepen my understanding of industry best practices and refine my skills through practical application.",
+          "Overall, I am highly motivated to secure a 10-week internship that will allow me to further develop my abilities, gain valuable insights, and make significant strides towards becoming a skilled Fullstack developer."
+        ],
+        "information": [
+          {
+            "info_title": "Relevant assignments doing internship",
+            "info_text": [
+              "Full-stack Web Development",
+              "Back-End Web Development",
+              "Frontent Web Development",
+              "Database design and programming",
+              "Machine learning/AI development",
+              "DevOps"
+            ]
+          },
+          {
+            "info_title": "Practical information",
+            "info_text": [
+              "Working period: 10 weeks - 37 hours a week starting from 21. of august to 27. of october",
+              "A contact person for proffesional sparring",
+              "The internship is unpaid",
+              "An internship contract"
+            ]
+          },
+          {
+            "info_title": "Links for further infomation",
+            "info_text": [
+              {
+                "links_title": "Internship",
+                "links": [
+                  "https://mit.kea.dk/en/internship",
+                  "https://www.kea.dk/en/collaboration-with-kea/get-an-intern",
+                  "https://katalog.kea.dk/course/9941351/2023-2024"
+                ]
+              },
+              {
+                "links_title": "Courses",
+                "links": [
+                  "Web-development - https://katalog.kea.dk/course/9941501/2023-2024",
+                  "Databases - https://katalog.kea.dk/course/9941503/2023-2024",
+                  "Development Environments - https://katalog.kea.dk/course/9941601/2023-2024",
+                  "Applied Artifical Intelligence - https://katalog.kea.dk/course/9942257/2022-2023",
+                  "Backend-end with Python and Django - https://katalog.kea.dk/course/9941210/2022-2023"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "introduction_name": "about",
+        "introduction_title": "About",
+        "introduction_text": [
+          "My name is Jonas Rossen, and I'm delighted to have you here. At 30 years old, I am currently pursuing my studies in web development at KEA - Copenhagen School of Design and Technology.",
+          "One of my greatest passions is to become a proficient full stack developer, with a particular focus on enhancing my skills in back-end development. The intricacies of server-side programming and database management fascinate me, and I'm constantly striving to expand my knowledge in this area.",
+          "I consider myself to be an open-minded individual who is always eager to learn and explore new concepts and technologies. With a happy and social disposition, I find it easy to collaborate with others and thrive in team environments. I truly enjoy engaging in discussions, brainstorming ideas, and finding innovative solutions alongside my colleagues.",
+          "In addition to my technical pursuits, I value an easy-going and approachable attitude. I believe in fostering positive working relationships and creating a supportive atmosphere where everyone feels comfortable sharing their thoughts and opinions. I genuinely enjoy being around people, and I find that a friendly and cooperative work environment leads to increased creativity and productivity.",
+          "Thank you for taking the time to learn a little about me. Feel free to explore my portfolio and reach out if you have any questions or if you'd like to discuss potential collaborations. I look forward to connecting with you!"
+        ],
+        "information": [
+          {
+            "info_title": "",
+            "info_text": [""]
+          }
+        ]
+      },
+      {
+        "introduction_name": "contact",
+        "introduction_title": "Contact information",
+        "introduction_text": [
+          "I hope you're considering me as a potential intern for your team. I'm excited about the opportunity to contribute and learn from your organization. If my portfolio has inspired you, I'd be delighted to connect with you.",
+          "If you're interested in connecting with me, I welcome you to reach out through any of the following channels:",
+          "Email: jonas.rossen@live.dk",
+          "LinkedIn: https://www.linkedin.com/in/jonas-rossen/",
+          "Phone/Sms: +45 24 60 38 49"
+        ],
+        "information": [{ "info_title": "", "info_text": [""] }]
+      }
+    ],
     "projects": [
       {
-        "project_name": "test",
-        "project_description": "test desc",
-        "project_logo": "../data/projects/icons/icon_momondo.svg",
+        "project_name": "Banking",
+        "project_title": "Modern Banking System (Python, Django, HTMX)",
+        "project_description": [
+          "This project demonstrates our expertise in web development, specifically utilizing Python, Django, and HTMX to create a modern and efficient banking experience.",
+          "Leveraging Python and Django, our robust backend provides a secure and scalable foundation. Customers can manage multiple bank accounts, view movements and balances, and make loan payments. Silver and gold customers have the privilege of loaning money from the bank.",
+          "Customers can effortlessly transfer funds between accounts and enjoy comprehensive account management tools. Bank employees can create accounts, change rankings, and handle loan requests. Interbank transfers follow a robust protocol for secure transactions.",
+          "Our system implements multi-factor authentication, ensuring the highest standards of security. REST enables seamless integration, while SMS notifications alert bank employees of loan and account requests.",
+          "Containerized with Docker for scalability, our system is hosted on a VPS for optimal performance. Version control on GitLab and a CI/CD pipeline to maintain code quality and reliability."
+        ],
+        "project_logo": "/svgs/icon_banking.svg",
         "project_url": "test url",
-        "project_repository": "test resp",
-        "project_coding_languages": ["test php", "test js"]
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/bank-project"
+          },
+          {
+            "repo": "gitlab",
+            "repo_link": "https://gitlab.com/jona7906/kea-bank-project"
+          }
+        ],
+        "project_coding_languages": [
+          "python",
+          "django",
+          "htmx",
+          "docker",
+          "linode",
+          "gitlab",
+          "devops"
+        ],
+        "project_videos": [
+          {
+            "title": "Admin login, accept/decline requests",
+            "url": "https://youtu.be/LAhFvKxakV4"
+          },
+          {
+            "title": "Admin two-factor login",
+            "url": "https://youtu.be/zsCSXUxABrg"
+          },
+          {
+            "title": "Admin search customers and more",
+            "url": "https://youtu.be/8GW49U6AI2g"
+          },
+          {
+            "title": "Admin create user",
+            "url": "https://youtu.be/DCz3SE40qjE"
+          },
+          {
+            "title": "Customer page, walk through",
+            "url": "https://youtu.be/DN1dijrM0eA"
+          }
+        ]
       },
       {
         "project_name": "Momondo",
-        "project_description": "This is a description",
+        "project_title": "Momondo with PHP",
+        "project_description": [
+          "In this project, the objective was to create a website similar to Momondo.com using PHP. The website was hosted on a local Apache server and utilized various APIs to connect to a SQL database containing flight data. The APIs were tested using tools like Thunderclient or Postman.",
+          "The website allowed users to log in as administrators, granting them the ability to delete any flight from the system. User authentication was implemented using PHP sessions, ensuring that only authorized users could access the admin functionality. On the Admin page, a trash basket icon was displayed next to each flight, enabling deletion of flights from both the user interface and the database. This functionality was achieved through Ajax or Fetch requests and an API. Validation was implemented for both frontend and backend requests to ensure data integrity and security.",
+          "The website consisted of at least five pages, each containing hard-coded DOM elements, images, and a professional appearance. Additionally, users were provided with the capability to upload an image to a designated location on the website. To create user-friendly URLs, a .htaccess file was used to rewrite the URLs, enabling easy access to all pages of the website. Lastly, multilanguage support was implemented by creating a dictionary file in PHP, allowing for the translation of website content into multiple languages."
+        ],
         "project_logo": "/svgs/icon_momondo.svg",
         "project_url": "/url",
-        "project_repository": "/url2",
-        "project_coding_languages": ["php", "mysql", "sqlite", "phpmyadmin"]
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/momondo.git"
+          }
+        ],
+        "project_coding_languages": [
+          "php",
+          "mysql",
+          "postman",
+          "thunderclient",
+          "apache",
+          "github"
+        ],
+        "project_videos": [
+          {
+            "title": "User login",
+            "url": "https://youtu.be/IclLfHcJdps"
+          },
+          {
+            "title": "User login fail",
+            "url": "https://youtu.be/apstfupAuc8"
+          },
+          {
+            "title": "User signup",
+            "url": "https://youtu.be/jJGKyP_g5NM"
+          },
+          {
+            "title": "User page walk through and multi language support",
+            "url": "https://youtu.be/AtzfTjWdpaY"
+          },
+          {
+            "title": "Flight search",
+            "url": "https://youtu.be/nIiYQNZ3orI"
+          },
+          {
+            "title": "Admin login and flight deletion",
+            "url": "https://youtu.be/K-qCwJ1RVCc"
+          }
+        ]
       },
       {
-        "project_name": "test2",
-        "project_description": "test desc2",
-        "project_logo": "../data/projects/icons/icon_momondo.svg",
+        "project_name": "Aai_one",
+        "project_title": "Cats vs. Dogs (AI)",
+        "project_description": [
+          "In this project, we aimed to compare the performance of Convolutional Neural Networks (CNN) and Deep Neural Networks (DNN) in distinguishing between images of dogs and cats. Our research question was to determine which machine learning model is better suited for this binary image classification task.",
+          "To conduct our research, we followed a systematic approach. First, we formulated a hypothesis that CNN would outperform DNN in this task, while the null hypothesis stated that there would be no significant difference between the two models. We obtained a dataset containing images of dogs and cats and proceeded to analyze it using Python and the TensorFlow deep learning framework.",
+          "During the analysis phase, we cleaned the dataset by removing corrupt image files. We then developed a DNN model with multiple layers and tested its performance on training and validation sets. Through fine-tuning, we adjusted the model's architecture by increasing the number of layers and nodes and explored regularization techniques. However, the DNN model's performance remained unsatisfactory, with an accuracy of around 0.6 on both sets.",
+          "Next, we built a CNN model with convolutional and pooling layers, followed by a fully-connected layer. Initially, the CNN model outperformed the DNN model, but it showed signs of overfitting. To address this, we introduced a dropout layer and applied data augmentation to diversify the dataset. These measures helped reduce overfitting and improved the validation accuracy to above 0.8.",
+          "Based on our findings, we concluded that CNN models are more effective than DNN models for binary image classification tasks. Additionally, we found that regularization techniques and data augmentation can help mitigate overfitting in CNN models. Our results support the hypothesis that a CNN model performs better than a DNN model in distinguishing between images of dogs and cats.",
+          "Overall, this project provided valuable insights into the performance of different machine learning models for image classification tasks. By comparing CNN and DNN models, we gained a deeper understanding of their strengths and limitations, which can inform future research and applications in this field"
+        ],
+        "project_logo": "../svgs/icon_aai_one.svg",
         "project_url": "test url2",
-        "project_repository": "test resp2",
-        "project_coding_languages": ["test php", "test js"]
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/aai-cats-vs-dogs.git"
+          }
+        ],
+        "project_coding_languages": [
+          "python",
+          "tensorflow",
+          "numpy",
+          "matplotlib",
+          "jupyter"
+        ],
+        "project_videos": []
+      },
+      {
+        "project_name": "Aai_two",
+        "project_title": "Comparison of classification models (AI)",
+        "project_description": [
+          "This project aimed to compare the performance of three classification models: Random Forest, Deep Neural Network (DNN), and Logistic Regression. The goal was to determine which model performs best in accurately predicting good and bad creditors, while dealing with biased and imbalanced data of bank customers' creditworthiness.",
+          "The project utilized various techniques, including grid-search for hyperparameter optimization and different re-sampling methods like random oversampling, random undersampling, and SMOTEN to address the data imbalance. The models were evaluated based on accuracy and F1-score, with accuracy chosen as the primary performance measure.",
+          "The analysis revealed that the combination of the SMOTEN re-sampling method with the Random Forest classifier achieved near-perfect accuracy, indicating its superior performance on a balanced dataset. However, it was observed that Logistic Regression and DNN models did not perform as well, even with the same re-sampling techniques applied.",
+          "In conclusion, the findings suggest that the Random Forest classifier, when coupled with the SMOTEN re-sampling method, is the most effective model for accurately predicting creditworthiness. However, it is important to note that this conclusion applies specifically to the given imbalanced dataset and may not hold true for other scenarios.",
+          "Overall, this project sheds light on the importance of data preprocessing techniques and model selection in dealing with imbalanced datasets in the financial domain. By comparing and evaluating multiple classification models, it provides valuable insights for credit scoring applications and highlights the potential of ensemble methods like Random Forest in such contexts."
+        ],
+        "project_logo": "../svgs/icon_aai_two.svg",
+        "project_url": "test url2",
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/aai-comparison-of-classification-models.git"
+          }
+        ],
+        "project_coding_languages": [
+          "python",
+          "numpy",
+          "pandas",
+          "matplotlib",
+          "sklearn",
+          "jupyter"
+        ],
+        "project_videos": []
       }
     ]
   }

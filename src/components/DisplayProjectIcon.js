@@ -1,21 +1,17 @@
-/* import { useState, useEffect } from "react";
- */
+import Momondo from "../svgs/icon_momondo.svg";
+import Banking from "../svgs/icon_banking.svg";
+import Aai_one from "../svgs/icon_aai_one.svg";
+import Aai_two from "../svgs/icon_aai_two.svg";
+
 function DisplayProjectIcon(props) {
-  /*   let [icon, setIcon] = useState("");
-  useEffect(() => {
-    async function fetchData() {
-      // You can await here
-      let logo_url = `${props.project_logo}`;
-      let importedIcon = await import(`${logo_url}`);
+  const Icons = {
+    Momondo: Momondo,
+    Banking: Banking,
+    Aai_one: Aai_one,
+    Aai_two: Aai_two,
+  };
+  const Icon = Icons[props.project_name];
 
-      setIcon(importedIcon.default);
-    }
-    fetchData();
-  }, [props.project_logo]); */
-
-  /*   let img = <img alt={props.project_name + `_icon`} src={icon} />;
-   */
-  let icon = `${props.project_logo}`;
-  return <img alt="icon" src={require(icon)?.default} />;
+  return <img alt="project icon" src={Icon} />;
 }
 export default DisplayProjectIcon;

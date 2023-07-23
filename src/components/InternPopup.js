@@ -40,7 +40,7 @@ function InternPopup() {
             skills as an aspiring “Fullstack-developer”. Take a look around and
             learn more about{" "}
             <Link to="/about" alt="information">
-              who i am
+              who I am
             </Link>{" "}
             , see my current{" "}
             <Link to="/portfolio" alt="portfolio">

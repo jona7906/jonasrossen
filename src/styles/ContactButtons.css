@@ -1,0 +1,39 @@
+.contact_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1.5vw;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact_wrapper .ContactButton {
+  height: 16vw;
+  border-radius: 0.5vw;
+  width: 17vw;
+  padding: 1vw;
+  display: grid;
+  background-color: white;
+  box-shadow: 0.2vw 0vw 0.5vw 0.01vw rgba(0, 0, 0, 0.284);
+}
+
+.contact_wrapper .ContactButton {
+  height: 16vw;
+  border-radius: 0.5vw;
+  width: 17vw;
+  padding: 1vw;
+  display: grid;
+  background-color: white;
+  box-shadow: 0.2vw 0vw 0.5vw 0.01vw rgba(0, 0, 0, 0.284);
+}
+
+.contact_wrapper .ContactButton a {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.contact_wrapper .ContactButton a img {
+  width: 60%;
+}

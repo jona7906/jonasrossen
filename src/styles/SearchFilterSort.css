@@ -4,6 +4,7 @@
   width: 100%;
   height: fit-content;
   padding: 2vw;
+  gap: 2vw;
 }
 
 .SearchFilterSort > div {
@@ -11,7 +12,14 @@
 
 .SearchFilterSort .search_wrapper_01 {
   display: grid;
-  width: 10vw;
+  grid-template-columns: max-content auto;
+  gap: 2vw;
+  width: 100%;
+}
+
+.SearchFilterSort .search_wrapper_01 .search_input {
+  all: unset;
+  width: 100%;
 }
 
 .SearchFilterSort .search_wrapper_01 img {

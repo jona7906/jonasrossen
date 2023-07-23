@@ -3,14 +3,33 @@ import Project from "./Project";
 
 import "../styles/AllProjects.css";
 
-function AllProjects() {
-  let all_projects = Projects_data[0].projects;
+function AllProjects(props) {
+  if (!props) {
+    return null;
+  }
+  const all_projects = Projects_data[0].projects;
 
+  let searched_projects = all_projects.filter((project) => {
+    const projectValues = Object.values(project);
+    return projectValues.some(
+      (value) =>
+        (typeof value === "string" &&
+          value.toLowerCase().includes(props.search_key.toLowerCase())) ||
+        (Array.isArray(value) &&
+          value.some(
+            (item) =>
+              typeof item === "string" &&
+              item.toLowerCase().includes(props.search_key.toLowerCase())
+          ))
+    );
+  });
+
+  console.log(searched_projects);
   console.log(all_projects);
 
   return (
     <div className="AllProjects">
-      {all_projects?.map((project) => {
+      {searched_projects?.map((project) => {
         return (
           <div key={project.project_name} className="project_wrapper">
             <Project key={project.project_logo} project={project}></Project>
