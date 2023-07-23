@@ -72,3 +72,12 @@ a {
 ul {
   list-style: none;
 }
+
+@media screen and (max-width: 780px) {
+  main {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    padding: 4;
+  }
+}

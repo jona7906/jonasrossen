@@ -27,8 +27,6 @@
   background-color: white;
   padding: 2vw;
   padding-top: 1vw;
-
-  /*  margin-top: 1vw; */
   justify-content: space-around;
   row-gap: 1vw;
   border-radius: 0.6vw;
@@ -38,17 +36,6 @@
 .ExitInternPopup {
   display: none;
 }
-/* 
-.InternPopup .popup_container_background {
-  grid-column: 1/-1;
-  grid-row: 1/2;
-  width: 100%;
-  height: 100%;
-} */
-
-/* .InternPopup .popup_container_background img {
- 
-} */
 .popup_text_wrapper {
   /* margin-top: 3%; */
   width: 100%;
@@ -129,4 +116,12 @@
 .InternPopup .popup_exit_button button img {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .InternPopup {
+    display: none;
+    width: 96%;
+    margin: 2vw;
+  }
 }

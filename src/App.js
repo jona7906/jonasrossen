@@ -1,4 +1,4 @@
-import ReactDOM from "react-dom";
+/* import ReactDOM from "react-dom"; */
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Main from "./pages/Main";
@@ -44,4 +44,4 @@ export default function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+/* ReactDOM.render(<App />, document.getElementById("root")); */

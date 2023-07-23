@@ -74,3 +74,22 @@
 }
 .icon_pages_section .contact_section_wrapper_01 p {
 }
+
+@media screen and (max-width: 780px) {
+  .icon_pages_section {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8vw;
+    justify-content: center;
+    gap: 4vw;
+  }
+
+  .icon_pages_section > a {
+    width: 80%;
+    height: 50vw;
+  }
+
+  .icon_pages_section img {
+    width: 30vw;
+  }
+}

@@ -9,6 +9,10 @@ import "../styles/SingleProject.css";
 import "../styles/Internship.css";
 import "../styles/SearchFilterSort.css";
 import "../styles/ContactButtons.css";
+import "../styles/About.css";
+import "../styles/Header.css";
+import "../styles/res_header.css";
+
 function Layout() {
   return (
     <>

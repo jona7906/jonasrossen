@@ -25,7 +25,6 @@
 .Header .NavBar .left-header {
   display: grid;
   width: fit-content;
-  /*   height: 100%; */
   background-color: #a7fbc3;
   justify-content: left;
   align-items: center;
@@ -81,4 +80,15 @@
 }
 .Header .NavBar .right-header a:active {
   background-color: #6ca37f;
+}
+
+.Header .NavBar .burger_wrapper {
+  width: fit-content;
+  display: none;
+  width: 1vw;
+  height: fit-content;
+  padding: 1vw;
+}
+.Header .NavBar.burger_wrapper .burger {
+  cursor: pointer;
 }
