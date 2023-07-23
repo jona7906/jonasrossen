@@ -20,17 +20,27 @@ function NavBar() {
   }
 
   function handleBurger() {
-    if (!activeBurger) {
-      openItem();
-    } else {
-      closeItem();
+    let dimensionWidth = getCurrentDimension().width;
+    if (dimensionWidth < 760) {
+      if (!activeBurger) {
+        openItem();
+      } else {
+        closeItem();
+      }
     }
+  }
+
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight,
+    };
   }
   return (
     <nav>
       <div className="NavBar">
         <div className="left-header">
-          <Link to="/">
+          <Link to="/" onClick={closeItem}>
             <img src={Logo} alt="Logo" />
           </Link>
         </div>
