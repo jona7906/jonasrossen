@@ -1,8 +1,5 @@
-import "../styles/Portfolio.css";
 import PortfolioSVG from "../svgs/icon_portfolio.svg";
-/* import SearchFilterSort from "../components/SearchFilterSort"; */
 import AllProjects from "../components/AllProjects";
-import "../styles/SearchFilterSort.css";
 import SearchButton from "../svgs/search_button.svg";
 import React, { useState } from "react";
 

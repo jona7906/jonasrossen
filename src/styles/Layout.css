@@ -68,3 +68,7 @@ p {
 a {
   font-family: "Segoe UI Bold";
 }
+
+ul {
+  list-style: none;
+}

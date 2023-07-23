@@ -1,5 +1,3 @@
-import "../styles/Internship.css";
-import "../styles/ContactButtons.css";
 import ContactSVG from "../svgs/icon_contact.svg";
 import ContactButton from "../components/ContactButton";
 function Contact(props) {
@@ -32,8 +30,6 @@ function Contact(props) {
           </div>
         </div>
       </div>
-
-      <div className="internship_section_02"></div>
     </div>
   );
 }

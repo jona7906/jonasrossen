@@ -1,4 +1,3 @@
-import "../styles/Main.css";
 import InternPopup from "../components/InternPopup";
 import IconPagesSection from "../components/IconPagesSection";
 

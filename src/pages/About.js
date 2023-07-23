@@ -1,4 +1,3 @@
-import "../styles/Internship.css";
 import AboutSVG from "../svgs/icon_about.svg";
 
 function About(props) {
@@ -23,8 +22,6 @@ function About(props) {
           })}
         </div>
       </div>
-
-      <div className="internship_section_02"></div>
     </div>
   );
 }

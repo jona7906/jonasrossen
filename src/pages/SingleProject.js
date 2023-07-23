@@ -1,5 +1,3 @@
-import "../styles/SingleProject.css";
-
 import DisplayProjectIcon from "../components/DisplayProjectIcon";
 import CodingLanguage from "../components/CodingLanguage";
 import DisplayIcon from "../components/DisplayIcon";
@@ -7,26 +5,6 @@ import DisplayIcon from "../components/DisplayIcon";
 function SingleProject(props) {
   if (!props) {
     return null;
-  }
-
-  function DisplayText(text) {
-    const sectionOne = text.filter((section) => section.indexOf() < 3);
-
-    let fullText = [];
-
-    text.map((section) => (fullText = fullText + section.split(" ")));
-
-    console.log("fulltext length = " + fullText.length);
-
-    if (fullText.length < 1100) {
-      return sectionOne.map((section) => {
-        return <p>{section}</p>;
-      });
-    } else {
-      return sectionOne.map((sectionOne) => {
-        return <p>{sectionOne}</p>;
-      });
-    }
   }
 
   return (

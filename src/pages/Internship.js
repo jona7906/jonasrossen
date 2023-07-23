@@ -1,4 +1,3 @@
-import "../styles/Internship.css";
 import InternshipSVG from "../svgs/icon_internship.svg";
 
 function Internship(props) {
