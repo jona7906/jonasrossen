@@ -1,5 +1,3 @@
-import "../styles/InternPopup.css";
-
 import ExitButtonSVG from "../svgs/exit_button.svg";
 
 import { useState } from "react";

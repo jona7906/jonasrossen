@@ -1,8 +1,6 @@
 import Projects_data from "../data/projects_data.json";
 import Project from "./Project";
 
-import "../styles/AllProjects.css";
-
 function AllProjects(props) {
   if (!props) {
     return null;

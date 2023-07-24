@@ -2,16 +2,17 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import "../styles/Layout.css";
-import "../styles/Main.css";
-import "../styles/Portfolio.css";
-import "../styles/SingleProject.css";
-import "../styles/Internship.css";
-import "../styles/SearchFilterSort.css";
-import "../styles/ContactButtons.css";
-import "../styles/About.css";
-import "../styles/Header.css";
-import "../styles/res_header.css";
+import "../styles/Layout.scss";
+import "../styles/Main.scss";
+import "../styles/Portfolio.scss";
+import "../styles/Project.scss";
+import "../styles/SingleProject.scss";
+import "../styles/Internship.scss";
+import "../styles/SearchFilterSort.scss";
+import "../styles/ContactButtons.scss";
+import "../styles/Header.scss";
+import "../styles/InternPopup.scss";
+import "../styles/res_header.scss";
 
 function Layout() {
   return (

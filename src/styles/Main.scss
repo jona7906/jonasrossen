@@ -1,0 +1,184 @@
+@import "variables";
+
+.Main {
+  height: fit-content;
+  width: 100%;
+  .main_section_01 {
+    .main_popup_01 {
+      display: block;
+      position: absolute;
+      width: fit-content;
+      height: fit-content;
+      top: 6vw;
+
+      h2 {
+        padding-bottom: 1vw;
+      }
+      p {
+      }
+    }
+  }
+
+  .main_section_02 {
+    .icon_pages_section {
+      margin: 0 auto;
+      height: fit-content;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2vw;
+      background-color: rgba(68, 255, 0, 0);
+
+      a {
+        box-shadow: $primary-shadow;
+        background-color: #f77b4e7f;
+        background-color: $primary-color;
+        border-radius: 0.6vw;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        height: 35vw;
+      }
+      a:hover {
+        background-color: $hover-color;
+      }
+      a:active {
+        box-shadow: $active-shadow;
+      }
+      img {
+        width: 15vw;
+      }
+      .intern_section_wrapper_01 {
+        grid-column: 1/2;
+      }
+      .portfolio_section_wrapper_01 {
+        grid-column: 2/3;
+      }
+      .contact_section_wrapper_01 {
+        grid-column: 3/4;
+        padding-top: 3vw;
+      }
+    }
+  }
+}
+
+.Internship {
+  width: 100%;
+  height: fit-content;
+  background-color: $primary-color-03;
+  display: grid;
+  gap: 2vw;
+
+  .internship_section_01 {
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    width: 100%;
+    gap: 2vw;
+    background-color: $primary-color-03;
+
+    div {
+      box-shadow: $active-shadow;
+      background-color: $primary-color-03;
+      border-radius: 0.6vw;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      height: fit-content;
+      width: fit-content;
+    }
+
+    .icon_wrapper_01 {
+      height: auto;
+      width: 30%;
+      justify-items: center;
+      align-content: center;
+      background-color: $primary-color;
+      img {
+        width: 55%;
+      }
+    }
+
+    .text_wrapper_01 {
+      height: fit-content;
+      width: 70%;
+      padding: 2vw;
+      gap: 1vw;
+      background-color: $primary-color-03;
+    }
+  }
+
+  ul {
+    display: grid;
+    padding-bottom: 2vw;
+    gap: 1vw;
+    li {
+      box-shadow: $active-shadow;
+      border-radius: 0.6vw;
+      padding: 1vw;
+    }
+  }
+
+  .internship_section_02 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: fit-content;
+    padding: 2vw;
+    display: grid;
+    gap: 1vw;
+  }
+
+  .internship_section_03 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: fit-content;
+    padding: 2vw;
+    display: grid;
+    gap: 1vw;
+  }
+
+  .internship_section_04 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: fit-content;
+    padding: 2vw;
+    display: grid;
+    gap: 1vw;
+
+    ul {
+      li {
+        box-shadow: $primary-shadow;
+        background-color: $primary-color;
+        border-radius: 0.6vw;
+        padding: 0vw;
+        height: fit-content;
+        a {
+          padding: 1vw;
+          width: 100%;
+          display: block;
+          color: black;
+        }
+      }
+
+      li:hover {
+        background-color: $hover-color;
+      }
+
+      li:active {
+        box-shadow: $active-shadow;
+      }
+    }
+  }
+  .internship_section_05 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: fit-content;
+    padding: 2vw;
+    display: grid;
+    gap: 1vw;
+  }
+}

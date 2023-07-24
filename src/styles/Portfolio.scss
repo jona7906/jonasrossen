@@ -1,0 +1,70 @@
+@import "variables";
+
+.Portfolio {
+  width: 100%;
+  height: fit-content;
+  background-color: $primary-color-03;
+  display: grid;
+  gap: 2vw;
+
+  .portfolio_section_01 {
+    display: flex;
+    margin: 0 auto;
+    height: fit-content;
+    width: 100%;
+    gap: 2vw;
+    background-color: $primary-color-03;
+
+    div {
+      box-shadow: $active-shadow;
+
+      background-color: $primary-color;
+      border-radius: 0.6vw;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+      height: fit-content;
+    }
+
+    .icon_wrapper_01 {
+      height: auto;
+      width: 30%;
+      justify-items: center;
+      align-content: center;
+
+      img {
+        width: 55%;
+      }
+    }
+    .text_wrapper_01 {
+      height: fit-content;
+      background-color: $primary-color-03;
+      width: 70%;
+      padding: 2vw;
+      gap: 1vw;
+    }
+  }
+  .portfolio_section_02 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    background-color: $primary-color-03;
+    border-radius: 0.6vw;
+    height: fit-content;
+  }
+  .portfolio_section_03 {
+    display: grid;
+    background-color: $primary-color-03;
+    min-height: 5vw;
+    box-shadow: $active-shadow;
+    border-radius: 0.6vw;
+    .AllProjects {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2vw;
+      padding: 2vw;
+      justify-items: center;
+    }
+  }
+}

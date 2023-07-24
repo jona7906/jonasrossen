@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Victor+Mono:wght@700&display=swap");
+@import "variables";
+
 @font-face {
   font-family: "Segoe UI Regular";
   font-style: normal;
@@ -40,21 +42,19 @@ header {
   display: block;
   position: absolute;
   z-index: 1;
-
-  /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.319); */
 }
 
 main {
   width: 100%;
   height: fit-content;
-  background-color: rgb(255, 255, 255);
+  background-color: $primary-color-03;
   padding: 9vw 6vw 6vw 6vw;
 }
 
 footer {
   width: 100%;
   height: fit-content;
-  background-color: darkgray;
+  background-color: $primary-color-02;
 }
 
 h1 {

@@ -42,10 +42,7 @@ function Portfolio(props) {
               onChange={handleInputChange}
             />
           </div>
-          <div className="sort_filter_wrapper_01">
-            {/* <div className="sort_wrapper_01">FILTER</div>
-            <div className="filter_wrapper_01">SORT</div> */}
-          </div>
+          <div className="sort_filter_wrapper_01"></div>
         </div>
       </div>
       <div className="portfolio_section_03">

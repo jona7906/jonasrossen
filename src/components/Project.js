@@ -1,6 +1,6 @@
 import CodingLanguage from "./CodingLanguage.js";
 import DisplayProjectIcon from "./DisplayProjectIcon.js";
-import "../styles/Project.css";
+
 import { Link } from "react-router-dom";
 
 function Project(props) {

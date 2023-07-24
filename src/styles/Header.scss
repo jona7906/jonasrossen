@@ -1,0 +1,94 @@
+@import "variables";
+
+.Header {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  z-index: 1;
+  background-color: $primary-color-02;
+  box-shadow: $primary-shadow;
+  position: sticky;
+  top: 0;
+
+  .NavBar {
+    display: grid;
+    grid-template-columns: min-content min-content min-content;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    grid-column: 1/-1;
+    height: fit-content;
+
+    .left-header {
+      display: grid;
+      width: fit-content;
+      background-color: $primary-color;
+      justify-content: left;
+      align-items: center;
+
+      img {
+        width: 8vw;
+        padding: 0.8vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+      }
+    }
+    .left-header:hover {
+      background-color: $hover-color;
+    }
+
+    .left-header:active {
+      background-color: $active-color;
+      box-shadow: $active-shadow;
+    }
+
+    .mid-header {
+      width: fit-content;
+      height: fit-content;
+    }
+
+    .right-header {
+      width: fit-content;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      padding-right: 2vw;
+
+      img {
+        display: none;
+        width: 1vw;
+        height: auto;
+      }
+
+      a {
+        text-decoration: none;
+        height: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        padding: 1vw;
+        color: $primary-color-03;
+      }
+
+      a:hover {
+        background-color: $hover-color;
+      }
+      a:active {
+        background-color: $active-color;
+        box-shadow: $active-shadow;
+      }
+    }
+    .burger_wrapper {
+      width: fit-content;
+      display: none;
+      width: 1vw;
+      height: fit-content;
+      padding: 1vw;
+      .burger {
+        cursor: pointer;
+      }
+    }
+  }
+}
