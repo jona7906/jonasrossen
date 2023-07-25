@@ -1,5 +1,6 @@
 import ContactSVG from "../svgs/icon_contact.svg";
 import ContactButton from "../components/ContactButton";
+
 function Contact(props) {
   if (!props) {
     return null;

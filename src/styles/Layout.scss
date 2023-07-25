@@ -47,14 +47,14 @@ header {
 main {
   width: 100%;
   height: fit-content;
-  background-color: $primary-color-03;
+  background: $primary-color-03;
   padding: 9vw 6vw 6vw 6vw;
 }
 
 footer {
-  width: 100%;
-  height: fit-content;
-  background-color: $primary-color-02;
+  width: 98vw;
+  height: 10vw;
+  background: $primary-color-02;
 }
 
 h1 {

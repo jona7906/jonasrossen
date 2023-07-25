@@ -7,6 +7,18 @@ function SingleProject(props) {
     return null;
   }
 
+  function displayLink() {
+    let linkWrapper = (
+      <a href={props.project.project_url} className="link_wrapper">
+        <h3>Go to website</h3>
+      </a>
+    );
+
+    if (props.project.project_url) {
+      return linkWrapper;
+    }
+  }
+
   return (
     <div className="SingleProject">
       <div className="single_project_stack_section">
@@ -34,11 +46,10 @@ function SingleProject(props) {
             return <p>{desc}</p>;
           })}
 
-          {/* {DisplayText(props.project.project_description)}
-           */}
           <div className="repo_link_wrapper">
-            <h3>Repository:</h3>
-            <p>
+            <h3>Repository/Link:</h3>
+
+            <div>
               {props.project.project_repository?.map((pr) => {
                 return (
                   <a href={pr.repo_link}>
@@ -46,7 +57,8 @@ function SingleProject(props) {
                   </a>
                 );
               })}
-            </p>
+              {displayLink()}
+            </div>
           </div>
         </div>
       </div>

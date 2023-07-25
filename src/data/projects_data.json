@@ -109,7 +109,7 @@
           "Containerized with Docker for scalability, our system is hosted on a VPS for optimal performance. Version control on GitLab and a CI/CD pipeline to maintain code quality and reliability."
         ],
         "project_logo": "/svgs/icon_banking.svg",
-        "project_url": "test url",
+        "project_url": "",
         "project_repository": [
           {
             "repo": "github",
@@ -161,7 +161,7 @@
           "The website consisted of at least five pages, each containing hard-coded DOM elements, images, and a professional appearance. Additionally, users were provided with the capability to upload an image to a designated location on the website. To create user-friendly URLs, a .htaccess file was used to rewrite the URLs, enabling easy access to all pages of the website. Lastly, multilanguage support was implemented by creating a dictionary file in PHP, allowing for the translation of website content into multiple languages."
         ],
         "project_logo": "/svgs/icon_momondo.svg",
-        "project_url": "/url",
+        "project_url": "",
         "project_repository": [
           {
             "repo": "github",
@@ -215,7 +215,7 @@
           "Overall, this project provided valuable insights into the performance of different machine learning models for image classification tasks. By comparing CNN and DNN models, we gained a deeper understanding of their strengths and limitations, which can inform future research and applications in this field"
         ],
         "project_logo": "../svgs/icon_aai_one.svg",
-        "project_url": "test url2",
+        "project_url": "",
         "project_repository": [
           {
             "repo": "github",
@@ -242,7 +242,7 @@
           "Overall, this project sheds light on the importance of data preprocessing techniques and model selection in dealing with imbalanced datasets in the financial domain. By comparing and evaluating multiple classification models, it provides valuable insights for credit scoring applications and highlights the potential of ensemble methods like Random Forest in such contexts."
         ],
         "project_logo": "../svgs/icon_aai_two.svg",
-        "project_url": "test url2",
+        "project_url": "",
         "project_repository": [
           {
             "repo": "github",
@@ -257,6 +257,51 @@
           "sklearn",
           "jupyter"
         ],
+        "project_videos": []
+      },
+      {
+        "project_name": "Htmx_todo",
+        "project_title": "Todo App with HTMX and Django",
+        "project_description": [
+          "This dynamic web application allows users to effortlessly manage their todo list by adding, updating, and reordering tasks. Powered by HTMX, the app provides a smooth and interactive user experience without page reloads. Built on Django, the backend ensures secure and efficient data management."
+        ],
+        "project_logo": "/svgs/icon_htmx_todo.svg",
+        "project_url": "",
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/htmx-todo-project.git"
+          }
+        ],
+        "project_coding_languages": [
+          "python",
+          "django",
+          "htmx",
+          "linode",
+          "github"
+        ],
+        "project_videos": []
+      },
+
+      {
+        "project_name": "Server_dashboard",
+        "project_title": "Server dashboard with Vite, React and Sass",
+        "project_description": [
+          "The Server Dashboard project was an opportunity for us to enhance our frontend development skills, and we collaborated with Oak-digital, a company in need of a dashboard to monitor their servers' status. We were provided with an API that delivered data on various server attributes, such as current speed, status (up, down, or paused), server type, and more.",
+          "Through open communication with the company, we identified additional requirements: displaying the status of their meeting rooms and indicating whether they were in use or available. Armed with this information, we set out to create a comprehensive dashboard that showcased both the server status and meeting room availability.",
+          "To implement the dashboard, we leveraged cutting-edge technologies, including Vite, React, and SCSS. Vite ensured quick development and a smooth development experience. React enabled us to build dynamic and interactive user interfaces with reusable components, while SCSS helped us maintain a structured and maintainable CSS codebase.",
+          "The final product was a robust and user-friendly dashboard that provided real-time updates on server statuses and meeting room availability.",
+          "This project not only allowed us to demonstrate our proficiency in frontend development but also provided a valuable opportunity to work closely with a client, understand their requirements, and deliver a tailored solution to meet their needs."
+        ],
+        "project_logo": "/svgs/icon_server_dashboard.svg",
+        "project_url": "https://server-dashboard-test.netlify.app/",
+        "project_repository": [
+          {
+            "repo": "github",
+            "repo_link": "https://github.com/jonas-ofc/server-dashboard-test.git"
+          }
+        ],
+        "project_coding_languages": ["vite", "html", "react", "scss", "github"],
         "project_videos": []
       }
     ]

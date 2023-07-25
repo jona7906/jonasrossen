@@ -24,6 +24,8 @@ import Tensorflow_icon from "../svgs/icon_tensorflow.svg";
 import Jupyter_icon from "../svgs/icon_jupyter.svg";
 import Pandas_icon from "../svgs/icon_pandas.svg";
 import Sklearn_icon from "../svgs/icon_sklearn.svg";
+import Vite_icon from "../svgs/icon_vite.svg";
+import Sass_icon from "../svgs/icon_scss.svg";
 
 function CodingLanguage(props) {
   const Icons = {
@@ -53,6 +55,8 @@ function CodingLanguage(props) {
     jupyter: Jupyter_icon,
     pandas: Pandas_icon,
     sklearn: Sklearn_icon,
+    vite: Vite_icon,
+    scss: Sass_icon,
   };
 
   const Icon = Icons[props.lan];
