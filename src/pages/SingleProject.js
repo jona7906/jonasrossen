@@ -1,6 +1,7 @@
 import DisplayProjectIcon from "../components/DisplayProjectIcon";
 import CodingLanguage from "../components/CodingLanguage";
 import DisplayIcon from "../components/DisplayIcon";
+import EmbedVideo from "../components/EmbedVideo";
 
 function SingleProject(props) {
   if (!props) {
@@ -65,9 +66,15 @@ function SingleProject(props) {
       <div className="single_project_section_02">
         {props.project.project_videos.map((video) => {
           return (
+            /*  <div className="video_wrapper">
+              <EmbedVideo video_url={video.url} />
+            </div> */
             <a href={video.url}>
               <div className="video_wrapper">
-                <DisplayIcon icon="Youtube" key="Youtube" />
+                <h2>{video.title}</h2>
+                <div className="icon-wrapper">
+                  <DisplayIcon icon="Youtube" key="Youtube" />
+                </div>
               </div>
             </a>
           );

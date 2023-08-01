@@ -289,6 +289,58 @@
       gap: 2vw;
       padding: 2vw;
       justify-items: center;
+
+      .all-projects-stack-filter-wrapper {
+        width: 100%;
+        grid-column: 1/4;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2vw;
+        .show-all-button {
+          width: 8vw;
+          padding: 1vw;
+        }
+        .button-outer-container {
+          display: grid;
+          grid-template-columns: 1fr auto;
+          width: 100%;
+          gap: 1vw;
+          .arrow-button-container {
+            display: grid;
+
+            .arrow-button {
+              width: 3vw;
+            }
+          }
+          .button-container {
+            display: flex;
+            width: 100%;
+            gap: 3vw;
+            overflow: hidden;
+            white-space: nowrap;
+            width: 100%;
+            gap: 2vw;
+            button {
+              background: none;
+              border: none;
+              outline: none;
+              text-decoration: none;
+              /* Optionally set the font to inherit from the parent */
+              font: inherit;
+              /* Optionally, set other button-specific styles like padding and margin */
+              padding: 0;
+              margin: 0;
+              flex-shrink: 0;
+              cursor: pointer;
+
+              img {
+                height: 2.5vw;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -536,6 +588,12 @@
         img {
           height: 10vw;
         }
+
+        h2 {
+          display: none;
+          padding: 2vw;
+          color: white;
+        }
       }
 
       .video_wrapper:hover {
@@ -545,6 +603,27 @@
       .video_wrapper:active {
         background: $hover-color;
         box-shadow: $active-shadow;
+      }
+    }
+
+    a:hover {
+      .video_wrapper {
+        h2 {
+          display: block;
+        }
+        .icon-wrapper {
+          img {
+            display: none;
+          }
+        }
+      }
+
+      .video_wrapper:hover {
+      }
+      .video_wrapper:hover {
+      }
+
+      .video_wrapper:active {
       }
     }
   }
@@ -585,6 +664,10 @@
       background: $primary-color;
       justify-content: left;
       align-items: center;
+
+      /*  .active {
+        background: $active-color;
+      } */
 
       img {
         width: 8vw;
@@ -636,6 +719,10 @@
       a:active {
         background: $active-color;
         box-shadow: $active-shadow;
+      }
+      .active {
+        /*  box-shadow: $active-shadow; */
+        background: $hover-color;
       }
     }
     .burger_wrapper {
@@ -870,6 +957,11 @@
       }
 
       .left-header {
+        a {
+        }
+        .active {
+          background: $hover-color;
+        }
         img:first-of-type {
           width: 14vw;
           padding: 2vw;
@@ -1210,9 +1302,15 @@
           height: 30vw;
           img {
           }
+
+          h2 {
+            display: none;
+          }
         }
 
-        .video_wrapper:hover {
+        .video_wrapper:hover h2 {
+        }
+        .video_wrapper:hover .icon-wrapper {
         }
 
         .video_wrapper:active {

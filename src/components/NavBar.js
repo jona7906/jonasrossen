@@ -4,11 +4,12 @@ import InternIcon from "../svgs/icon_internship.svg";
 import ContactIcon from "../svgs/icon_contact.svg";
 import PortfolioIcon from "../svgs/icon_portfolio.svg";
 import AboutIcon from "../svgs/icon_about.svg";
-import { Link } from "react-router-dom";
 
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 
 function NavBar() {
+  const location = useLocation(); // Get the current location of the app
   const [activeBurger, setActiveBurger] = useState(false);
 
   function closeItem() {
@@ -36,11 +37,21 @@ function NavBar() {
       height: window.innerHeight,
     };
   }
+
+  // Function to check if a given link is active based on its `to` prop
+  function isLinkActive(path) {
+    return location.pathname === path;
+  }
+
   return (
     <nav>
       <div className="NavBar">
         <div className="left-header">
-          <Link to="/" onClick={closeItem}>
+          <Link
+            to="/"
+            onClick={closeItem}
+            className={isLinkActive("/") ? "active" : ""}
+          >
             <img src={Logo} alt="Logo" />
           </Link>
         </div>
@@ -58,16 +69,32 @@ function NavBar() {
         </div>
 
         <div className={activeBurger ? "right-header-active" : "right-header"}>
-          <Link to="/internship" onClick={handleBurger}>
+          <Link
+            to="/internship"
+            onClick={handleBurger}
+            className={isLinkActive("/internship") ? "active" : ""}
+          >
             Internship <img src={InternIcon} alt="intern-icon" />
           </Link>
-          <Link to="/portfolio" onClick={handleBurger}>
+          <Link
+            to="/portfolio"
+            onClick={handleBurger}
+            className={isLinkActive("/portfolio") ? "active" : ""}
+          >
             Portfolio <img src={PortfolioIcon} alt="portfolio-icon" />
           </Link>
-          <Link to="/about" onClick={handleBurger}>
+          <Link
+            to="/about"
+            onClick={handleBurger}
+            className={isLinkActive("/about") ? "active" : ""}
+          >
             About <img src={AboutIcon} alt="about-icon" />
           </Link>
-          <Link to="/contact" onClick={handleBurger}>
+          <Link
+            to="/contact"
+            onClick={handleBurger}
+            className={isLinkActive("/contact") ? "active" : ""}
+          >
             Contact <img src={ContactIcon} alt="contact-icon" />
           </Link>
         </div>
