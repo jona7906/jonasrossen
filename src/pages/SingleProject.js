@@ -1,7 +1,6 @@
 import DisplayProjectIcon from "../components/DisplayProjectIcon";
 import CodingLanguage from "../components/CodingLanguage";
 import DisplayIcon from "../components/DisplayIcon";
-import EmbedVideo from "../components/EmbedVideo";
 
 function SingleProject(props) {
   if (!props) {
