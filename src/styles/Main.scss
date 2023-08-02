@@ -1315,6 +1315,9 @@
         height: fit-content;
         grid-template-columns: 1fr;
         gap: 5vw;
+        .all-projects-stack-filter-wrapper {
+          display: none;
+        }
       }
       .project_wrapper {
         height: 90vw;
