@@ -1,6 +1,7 @@
 import PortfolioSVG from "../svgs/icon_portfolio.svg";
 import AllProjects from "../components/AllProjects";
 import SearchButton from "../svgs/search_button.svg";
+import GithubButton from "../svgs/icon_github.svg";
 import React, { useState } from "react";
 
 function Portfolio(props) {
@@ -27,7 +28,25 @@ function Portfolio(props) {
         <div className="text_wrapper_01">
           <h1>{portfolio_intro.introduction_title}</h1>
           {portfolio_intro.introduction_text?.map((text) => {
-            return <p>{text}</p>;
+            const containsGithub = text.includes("github");
+            let github = "";
+            let githubText = "";
+            if (containsGithub) {
+              github = text.split(": ")[1];
+              githubText = text.split(": ")[0];
+            }
+            if (!containsGithub) {
+              return <p>{text}</p>;
+            } else {
+              return (
+                <div className="portfolio-github-container">
+                  <p>{githubText}</p>
+                  <a href={github}>
+                    <img src={GithubButton} alt="github"></img>
+                  </a>
+                </div>
+              );
+            }
           })}
         </div>
       </div>

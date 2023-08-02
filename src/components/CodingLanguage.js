@@ -26,6 +26,7 @@ import Pandas_icon from "../svgs/icon_pandas.svg";
 import Sklearn_icon from "../svgs/icon_sklearn.svg";
 import Vite_icon from "../svgs/icon_vite.svg";
 import Sass_icon from "../svgs/icon_scss.svg";
+import Restdb_icon from "../svgs/icon_restdb.svg";
 
 function CodingLanguage(props) {
   const Icons = {
@@ -57,6 +58,7 @@ function CodingLanguage(props) {
     sklearn: Sklearn_icon,
     vite: Vite_icon,
     scss: Sass_icon,
+    restdb: Restdb_icon,
   };
 
   const Icon = Icons[props.lan];
