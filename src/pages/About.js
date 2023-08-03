@@ -23,10 +23,10 @@ function About(props) {
         </div>
       </div>
 
-      <div className="internship_section_02">
+      <div className="about_information_container">
         <div className="text_wrapper_02">
-          <h1>{about_intro.information[0].info_title}</h1>
-
+          {/* <h1>{about_intro.information[0].info_title}</h1>
+           */}
           <div className="information_wrapper_01">
             <h2>{about_intro.information[0].info_text[0].text_title}</h2>
             <ul>

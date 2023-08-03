@@ -161,12 +161,9 @@
     }
   }
 
-  .internship_section_02 {
-    box-shadow: $active-shadow;
+  .about_information_container {
     width: 100%;
-    border-radius: 0.6vw;
-    height: fit-content;
-    padding: 2vw;
+
     display: grid;
     gap: 1vw;
 
@@ -207,6 +204,15 @@
         }
       }
     }
+  }
+  .internship_section_02 {
+    box-shadow: $active-shadow;
+    width: 100%;
+    border-radius: 0.6vw;
+    height: fit-content;
+    padding: 2vw;
+    display: grid;
+    gap: 1vw;
   }
 
   .internship_section_03 {
