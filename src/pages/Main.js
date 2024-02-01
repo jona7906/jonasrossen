@@ -1,18 +1,19 @@
-import InternPopup from "../components/InternPopup";
-import IconPagesSection from "../components/IconPagesSection";
-
+import { Link } from "react-router-dom";
 function Main() {
   return (
     <div className="Main">
-      <section className="main_section_01">
-        <div className="main_popup_01">
-          <InternPopup />
-        </div>
-      </section>
-      <section className="main_section_02">
-        <IconPagesSection />
-      </section>
-      <section className="main_section_03"></section>
+      <div className="content">
+        <h1 className="title">Welcome to My World of Code</h1>
+        <p className="intro">
+          Greetings! I'm Jonas Rossen, a Web Artisan, weaving digital dreams
+          into reality.
+          <br></br> Dive into my digital canvas and explore the brushstrokes of
+          my projects
+        </p>
+        <Link to="/portfolio" alt="portfolio" className="cta-button">
+          Embark on the Journey
+        </Link>{" "}
+      </div>
     </div>
   );
 }

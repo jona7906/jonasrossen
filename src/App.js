@@ -5,7 +5,7 @@ import Main from "./pages/Main";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Internship from "./pages/Internship";
+/* import Internship from "./pages/Internship"; */
 import SingleProject from "./pages/SingleProject";
 import Projects_data from "./data/projects_data";
 /* import NoPage from "../pages/NoPage"; */
@@ -18,10 +18,10 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Main />} />
-          <Route
+          {/*   <Route
             path="internship"
             element={<Internship data={Projects_data} />}
-          />
+          /> */}
           <Route
             path="portfolio"
             element={<Portfolio data={Projects_data} />}

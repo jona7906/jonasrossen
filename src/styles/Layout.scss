@@ -29,8 +29,12 @@
   src: local("Segoe UI Bold Italic"),
     url("../Segoe_UI_Bold_Italic.woff") format("woff");
 }
+
 body {
-  width: 98vw;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: $primary-bg-color;
+  overflow-x: hidden;
 }
 
 .App {

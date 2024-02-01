@@ -1,6 +1,6 @@
 import Logo from "../svgs/background_logo.svg";
 import Burger from "../svgs/icon_burger.svg";
-import InternIcon from "../svgs/icon_internship.svg";
+/* import InternIcon from "../svgs/icon_internship.svg"; */
 import ContactIcon from "../svgs/icon_contact.svg";
 import PortfolioIcon from "../svgs/icon_portfolio.svg";
 import AboutIcon from "../svgs/icon_about.svg";
@@ -69,13 +69,13 @@ function NavBar() {
         </div>
 
         <div className={activeBurger ? "right-header-active" : "right-header"}>
-          <Link
+          {/* <Link
             to="/internship"
             onClick={handleBurger}
             className={isLinkActive("/internship") ? "active" : ""}
           >
             Internship <img src={InternIcon} alt="intern-icon" />
-          </Link>
+          </Link> */}
           <Link
             to="/portfolio"
             onClick={handleBurger}

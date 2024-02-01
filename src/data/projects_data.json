@@ -72,11 +72,11 @@
         "introduction_name": "about",
         "introduction_title": "About",
         "introduction_text": [
-          "My name is Jonas Rossen, and I'm delighted to have you here. At 30 years old, I am currently pursuing my studies in web development at KEA - Copenhagen School of Design and Technology.",
-          "One of my greatest passions is to become a proficient full stack developer, with a particular focus on enhancing my skills in back-end development. The intricacies of server-side programming and database management fascinate me, and I'm constantly striving to expand my knowledge in this area.",
-          "I consider myself to be an open-minded individual who is always eager to learn and explore new concepts and technologies. With a happy and social disposition, I find it easy to collaborate with others and thrive in team environments. I truly enjoy engaging in discussions, brainstorming ideas, and finding innovative solutions alongside my colleagues.",
-          "In addition to my technical pursuits, I value an easy-going and approachable attitude. I believe in fostering positive working relationships and creating a supportive atmosphere where everyone feels comfortable sharing their thoughts and opinions. I genuinely enjoy being around people, and I find that a friendly and cooperative work environment leads to increased creativity and productivity.",
-          "Thank you for taking the time to learn a little about me. Feel free to explore my portfolio and reach out if you have any questions or if you'd like to discuss potential collaborations. I look forward to connecting with you!"
+          "Hello, I'm Jonas Rossen, and I'm glad to have you here. I'm 30 years old and recently completed my studies in web development at KEA - Copenhagen School of Design and Technology.",
+          "I've always been captivated by the world of coding and creating digital solutions. One of my main passions is to become a proficient full stack developer. I'm constantly striving to broaden my skills and understanding, whether it's front-end, back-end, or everything in between.",
+          "I'm someone who values collaboration and enjoys working in team environments. I find great satisfaction in engaging in discussions, brainstorming ideas, and finding innovative solutions alongside my colleagues.",
+          "Outside of the technical realm, I believe in fostering positive working relationships and creating a supportive atmosphere where everyone feels valued and comfortable sharing their thoughts and opinions.",
+          "Thank you for taking the time to learn a bit about me. Feel free to explore my portfolio, and please don't hesitate to reach out if you have any questions or potential collaborations in mind. I'm looking forward to connecting with you!"
         ],
         "information": [
           {
@@ -85,9 +85,12 @@
               {
                 "text_title": "Professional Life",
                 "text": [
-                  "2008/2009 - Shop Assistant Superbrugsen Nørreport",
+                  "2023/Present - Junior Developer, GoTutor",
+                  "2023/2023 - Developer Intern, GoTutor",
+                  "2022/2022 - Developer Intern, Copenhagen Film Company Kort & Dok A/S",
+                  "2013/2022 - Substitute Teacher Munkegårdskolen",
                   "2013/2020 - Pedagogical Assistant MunkegårdskolensGFO",
-                  "2013/2022 - Substitute Teacher Munkegårdskolen"
+                  "2008/2009 - Shop Assistant Superbrugsen Nørreport"
                 ]
               },
               {
@@ -122,14 +125,16 @@
                         ]
                       },
                       {
-                        "cv_sub_title": "2022/2023 - Web Development (PBA, currently studying) ",
+                        "cv_sub_title": "2022/2024 - Web Development (PBA) ",
                         "cv_sub_text": [
                           "5. SEM - Web Development",
                           "5. SEM - User Experience",
                           "5. SEM - Databases",
                           "6. SEM - Development Environments",
                           "6. SEM - Elective: ”Back-End with Python & Django”",
-                          "6. SEM - Elective: ”Applied Artificial Intelligence”"
+                          "6. SEM - Elective: ”Applied Artificial Intelligence”",
+                          "7. SEM - Work Placement Internship: ”GoTutor”",
+                          "7. SEM - Final Exam Project"
                         ]
                       }
                     ]

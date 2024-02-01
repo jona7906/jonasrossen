@@ -1,8 +1,57 @@
 @import "variables";
 
 .Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #293241;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 0 20px;
+
+  .content {
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #98c1d9;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .intro,
+  .description {
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+
+  .cta-button {
+    padding: 14px 28px;
+    background-color: #ee6c4d;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .cta-button:hover {
+    background-color: #ff8e6b;
+    transform: translateY(-2px);
+  }
+}
+
+/* .Main {
   height: fit-content;
   width: 100%;
+
   .main_section_01 {
     .main_popup_01 {
       display: block;
@@ -60,7 +109,7 @@
       }
     }
   }
-}
+} */
 
 .Internship {
   width: 100%;
@@ -145,7 +194,7 @@
       width: 70%;
       padding: 2vw;
       gap: 1vw;
-      background: $primary-color-03;
+      background: $white;
     }
   }
 
@@ -169,6 +218,7 @@
 
     .text_wrapper_02 {
       .information_wrapper_01 {
+        background-color: $white;
         margin-top: 1vw;
         padding: 2vw;
         box-shadow: $active-shadow;
@@ -179,6 +229,7 @@
       }
 
       .information_wrapper_02 {
+        background-color: $white;
         margin-top: 1vw;
         padding: 2vw;
         box-shadow: $active-shadow;
@@ -195,6 +246,7 @@
       }
 
       .information_wrapper_03 {
+        background-color: $white;
         margin-top: 1vw;
         padding: 2vw;
         box-shadow: $active-shadow;
@@ -282,7 +334,7 @@
     height: fit-content;
     width: 100%;
     gap: 2vw;
-    background: $primary-color-03;
+    /*   background: $primary-color-03; */
 
     div {
       box-shadow: $active-shadow;
@@ -306,13 +358,13 @@
     }
     .text_wrapper_01 {
       height: fit-content;
-      background: $primary-color-03;
+      background: $white;
       width: 70%;
       padding: 2vw;
       gap: 1vw;
 
       .portfolio-github-container {
-        background: $primary-color-03;
+        background: $primary-color;
         display: flex;
         justify-content: space-between;
 
@@ -322,7 +374,7 @@
         padding-bottom: 1vw;
 
         a {
-          background: $primary-color;
+          background: $white;
           border-radius: 0.6vw;
           padding: 1vw;
           box-shadow: $primary-shadow;
@@ -336,13 +388,13 @@
   .portfolio_section_02 {
     box-shadow: $active-shadow;
     width: 100%;
-    background: $primary-color-03;
+    background: $white;
     border-radius: 0.6vw;
     height: fit-content;
   }
   .portfolio_section_03 {
     display: grid;
-    background: $primary-color-03;
+    background: $white;
     min-height: 5vw;
     box-shadow: $active-shadow;
     border-radius: 0.6vw;
@@ -397,7 +449,7 @@
         .button-outer-container {
           box-shadow: $primary-shadow;
           clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
-          background: $hover-color;
+          background: $primary-color;
           display: grid;
           grid-template-columns: 1fr auto;
           width: 100%;
@@ -424,7 +476,7 @@
             white-space: nowrap;
             width: 100%;
             gap: 2vw;
-            background: $hover-color;
+            /* background: $hover-color; */
 
             -ms-overflow-style: none; /* IE and Edge */
             scrollbar-width: none;
@@ -515,7 +567,7 @@
         width: fit-content;
         padding: 0.8vw;
         clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 92%);
-        background: $hover-color;
+        background: $primary-color-02;
         box-shadow: -0.2vw 0vw 0.5vw 0.01vw rgba(0, 0, 0, 0.284);
 
         img {
@@ -567,7 +619,7 @@
 .SingleProject {
   width: 100%;
   height: fit-content;
-  background: $primary-color-03;
+  /* background: $primary-color-03; */
   display: grid;
   gap: 2vw;
 
@@ -576,13 +628,13 @@
     margin: 0 auto;
     width: 100%;
     gap: 2vw;
-    background: $primary-color-03;
+    /* background: $primary-color-03; */
     height: fit-content;
 
     div {
       box-shadow: $active-shadow;
       width: 100%;
-      background: $primary-color-03;
+      /* background: $primary-color-03; */
       border-radius: 0.6vw;
       display: grid;
       justify-content: center;
@@ -602,7 +654,7 @@
       display: flex;
       text-align: left;
       flex-direction: column;
-
+      background-color: $white;
       align-content: center;
       gap: 1vw;
       padding: 2vw;
@@ -617,7 +669,7 @@
         padding: 1.5vw;
         justify-content: space-between;
         align-items: center;
-
+        background-color: $primary-color;
         h3 {
           align-self: left;
         }
@@ -628,7 +680,7 @@
           a {
             display: grid;
             align-content: center;
-            background: $primary-color;
+            background: $white;
             border-radius: 0.6vw;
             box-shadow: $primary-shadow;
             justify-self: end;
@@ -692,7 +744,7 @@
     gap: 2vw;
     padding: 2vw;
     justify-content: center;
-
+    background-color: $white;
     a {
       width: 100%;
 
@@ -819,7 +871,6 @@
       height: 100%;
       display: flex;
       flex-direction: row;
-      padding-right: 2vw;
 
       img {
         display: none;
@@ -834,7 +885,11 @@
         justify-content: center;
         align-content: center;
         padding: 1vw;
-        color: $primary-color-03;
+        color: $white;
+      }
+
+      a:last-of-type {
+        padding-right: 2vw;
       }
 
       a:hover {
