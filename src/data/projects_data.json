@@ -159,11 +159,9 @@
         "introduction_name": "contact",
         "introduction_title": "Contact information",
         "introduction_text": [
-          "I hope you're considering me as a potential intern for your team. I'm excited about the opportunity to contribute and learn from your organization. If my portfolio has inspired you, I'd be delighted to connect with you.",
-          "If you're interested in connecting with me, I welcome you to reach out through any of the following channels:",
-          "Email: jonas.rossen@live.dk",
-          "LinkedIn: https://www.linkedin.com/in/jonas-rossen/",
-          "Phone/Sms: +45 24 60 38 49"
+          "I'm excited about the possibility of collaborating with you and bringing our ideas to life.",
+          "If my portfolio speaks to you, let's connect! I'm eager to hear about your projects and how I can contribute.",
+          "Feel free to reach out to me anytime using the contact form below. Looking forward to hearing from you!"
         ],
         "information": [{ "info_title": "", "info_text": [""] }]
       }
